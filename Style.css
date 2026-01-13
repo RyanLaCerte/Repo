@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+body {
+	background-color: antiquewhite;
+}
+
+h1 {
+	text-color: red;
+	text-shadow: 11px 12px 15px;
+	text-decoration: underline;
+	font: oblique;
+
+}
+
+img{
+	width: 600px;
+	Border-width: 40px solid black;
+	border-radius: 20%;
+}
+
+ul {
+	list-style-type: none;
+	background-color: lightblue;
+	width: 200;
+	margin: 0;
+	padding: 0;
+}
+
+@keyframes myAnimation {
+0% {background-color: lightcoral;} 
+	25% {background-color: lightgoldenrodyellow; top:100px;}
+	50% {background-color: lightblue; top:0px;}
+	75% {background-color: lightgreen;}
+	100% {background-color: lightcoral;}
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: lightcoral;
+animation-name: myAnimation;
+animation-duration: 8s;
+animation-iteration-count: infinite;
+  display: flex;
+  justify-content: center;	
+}
+
+li a {
+	display: block;
+	text-decoration: none;
+	color: darkblue;
+	padding: 8px 16px;
+}
+
+li a:hover {
+	background-color: aliceblue;
+	color: darkred;
+}
+	
